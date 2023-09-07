@@ -1,0 +1,31 @@
+digraph structs {
+	node [fontname=Helvetica shape=record]
+	rankdir=LR
+	10 [label=20]
+	9 [label=80]
+	10 -> 9
+	9 [label=80]
+	8 [label=30]
+	9 -> 8
+	8 [label=30]
+	7 [label=40]
+	8 -> 7
+	7 [label=40]
+	6 [label=70]
+	7 -> 6
+	6 [label=70]
+	5 [label=0]
+	6 -> 5
+	5 [label=0]
+	4 [label=10]
+	5 -> 4
+	4 [label=10]
+	3 [label=90]
+	4 -> 3
+	3 [label=90]
+	2 [label=100]
+	3 -> 2
+	2 [label=100]
+	1 [label=50]
+	2 -> 1
+}
